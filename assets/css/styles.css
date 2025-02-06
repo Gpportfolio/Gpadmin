@@ -1,0 +1,277 @@
+body {
+  font-family: "Dancing Script", cursive;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.display-web {
+  display: block;
+}
+.display-mobile {
+  display: none;
+}
+/* top header */
+.header_top {
+  background-color: #ffcc00;
+}
+
+.navbar_top .topheader {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.topheader h1 {
+  color: #000;
+  font-size: 20px;
+  font-family: "Dancing Script", cursive;
+  margin: 0px;
+  padding: 10px 0px;
+
+}
+.call a{
+  text-decoration: none;
+  color: inherit;
+}
+.call .whatsaap i {
+  color: #000;
+  font-size: 16px;
+}
+
+.call .whatsaap i:hover {
+  color: #ffffff;
+}
+
+.call .callpoint i {
+  color: #000;
+  font-size: 16px;
+}
+
+.call .callpoint i:hover {
+  color: #ffffff;
+}
+
+.call .callpoint span {
+  color: #000;
+  font-size: 14px;
+}
+
+.topheader h1 span {
+  color: #fff;
+  font-size: 20px;
+  font-family: "Dancing Script", cursive;
+  margin: 0px;
+  padding: 10px 0px;
+
+}
+
+.navbar_top .topheader p {
+  text-align: center;
+  color: #000;
+  font-size: 14px;
+  font-family: "Dancing Script", cursive;
+  margin: 0px;
+  padding: 10px 0px;
+}
+
+/* ---- */
+.myheader {
+  background-color: #222221;  
+}
+.navbar_mid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 10px 0;
+}
+
+
+.btncontactheader {
+  background-color: #FFCC00;
+  text-align: center;
+  color: #000;
+  cursor: pointer;
+  border-radius: 20px;
+  padding: 7px 16px;
+  font-family: "Dancing Script", cursive;
+  font-size: 14px;
+  border: 1px solid #000;
+}
+
+.btncontactheader:hover {
+  background: linear-gradient(90deg, rgba(215, 194, 81, 1) 0%, rgba(222, 213, 155, 1) 0%, rgba(255, 212, 0, 1) 100%, rgba(235, 173, 62, 1) 100%, rgba(227, 157, 87, 1) 100%);
+  color: #000;
+}
+.sidebar{
+  background-color: #222221;
+  padding: 25px 10px;
+  height: 100%;
+ 
+}
+.sidebar ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.sidebar ul li{
+ font-size: 18px;
+ padding: 3px 0px;
+ color: #FFCC00;
+ font-family: "Dancing Script", cursive;
+ cursor: pointer;
+}
+
+.sidebar ul li.active {
+  color: #FFCC00; 
+  text-decoration: underline;
+  text-underline-offset: 4px; 
+}
+.contactpage{
+  padding: 20px;
+}
+.contactpage h2{
+ font-size: 24px;
+ font-family: "Dancing Script", cursive;
+}
+
+.contact-table{
+  padding: 10px 10px 10px 0px;
+  border-radius: 8px;
+  background-color: #e2d191;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  height: 420px;
+}
+
+.statuspoint i{
+  font-size: 16px;
+  color: #000;
+  cursor: pointer;
+  padding: 0px 10px;
+}
+.statuspoint i:hover{
+  color: #fff;
+}
+.tabletopside{
+  padding: 0px 0px 14px 0px;
+}
+.search-container {
+  position: relative;
+  justify-content: end;
+  display: flex;
+  padding: 10px 0px;
+}
+
+.search-container input {
+  width: 300px;
+  padding: 4px 35px 4px 10px; /* Right padding for icon space */
+  font-size: 16px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  outline: none;
+}
+
+.search-container i {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #000;
+  cursor: pointer;
+}
+.search-container i:hover {
+  color: #ffcc00
+}
+.table-responsive {
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: auto; 
+  height: 345px;
+  max-width: 100%;
+}
+
+.table-responsive::-webkit-scrollbar {
+  width: 5px;
+  height: 5px; 
+}
+
+.table-responsive::-webkit-scrollbar-track {
+  background: #D9D9D9;
+  border-radius: 5px;
+}
+
+.table-responsive::-webkit-scrollbar-thumb {
+  background-color: #FFCC00;
+  border-radius: 5px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px;
+}
+
+.table th, .table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ecdfa7;
+  white-space: nowrap; 
+  font-family: "Dancing Script", cursive;
+}
+
+
+.dashboardpage{
+  padding: 20px;
+}
+.dashboardpage h2{
+ font-size: 24px;
+ font-family: "Dancing Script", cursive;
+}
+.dashboard-content {
+  padding: 10px 10px 10px 0px;
+  border-radius: 8px;
+  background-color: #e2d191;
+  overflow-y: auto;
+  overflow-x: auto;
+  height: 420px;
+}
+.dashboard-content::-webkit-scrollbar {
+  width: 5px;
+  height: 5px; 
+}
+
+.dashboard-content::-webkit-scrollbar-track {
+  background: #D9D9D9;
+  border-radius: 5px;
+}
+
+.dashboard-content::-webkit-scrollbar-thumb {
+  background-color: #FFCC00;
+  border-radius: 5px;
+}
+.dashboardarea p{
+  padding: 20px;
+}
+/* =========responsive=========== */
+@media (max-width: 991px) {
+  .table-responsive {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: auto;
+    height: auto; 
+    max-height: 420px; 
+  }
+  
+  .display-web {
+    display: none;
+  }
+  .display-mobile {
+    display: block;
+  }
+}
